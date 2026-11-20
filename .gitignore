@@ -1,0 +1,38 @@
+# macOS / editor files
+.DS_Store
+__MACOSX/
+._*
+.vscode/
+.idea/
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded datasets and outputs
+data-mining/notebooks/bank-additional-full.csv
+data-mining/data/
+deep-learning/notebooks/data/
+deep-learning/data/
+**/checkpoints/
+**/models/
+**/outputs/
+**/runs/
+*.pt
+*.pth
+*.ckpt
+
+# Generated WEKA exports
+data-mining/notebooks/knn_train_weka.csv
+data-mining/notebooks/knn_test_weka.csv

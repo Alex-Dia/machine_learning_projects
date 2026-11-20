@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+torch
+torchvision
+d2l
+datasets
+jupyterlab
+ipykernel
